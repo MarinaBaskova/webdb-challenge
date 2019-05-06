@@ -1,0 +1,22 @@
+{
+	"name": "projects-actions",
+	"version": "1.0.0",
+	"description": "sql projects-actions",
+	"main": "index.js",
+	"repository": "https://github.com/MarinaBaskova/webdb-challenge.git",
+	"author": "mb",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.0"
+	},
+	"dependencies": {
+		"express": "^4.16.4",
+		"helmet": "^3.16.0",
+		"knex": "^0.16.5",
+		"sqlite3": "^4.0.6"
+	}
+}
